@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Prompt";
+    src: url("../fonts/Prompt-Black.woff2") format("woff2"),
+    url("../fonts/Prompt-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", "Arial", sans-serif;
+    background-image: url("../img/background.jpg");
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.window{
+    width: 350px;
+    min-height: 400px;
+    margin: 80px auto;
+    padding: 45px 30px 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.countries{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: #3b8acf;
+}
+.line{
+    width: 25px;
+    height: 4px;
+    background-color: #d3e6f4;
+}
+.country{
+    margin: 0;
+    font-family: "Prompt", "Arial", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+}
+.name-country{
+    margin: 0;
+    font-size: 12px;
+    color: #928f8f;
+}
+.amsterdam{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.info-flight{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    margin: 50px 0 20px;
+}
+.type{
+    margin: 0;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #aaaaaacf;
+}
+.number{
+    margin: 2px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.inform-and-cod{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.no{
+    margin: 0 0 30px;
+}
+.types{
+    margin: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #aaaaaacf;
+}
+.name{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.cod{
+    background-image: url(../img/qr.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 150px;
+}
